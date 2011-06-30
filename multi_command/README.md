@@ -18,7 +18,7 @@ Example:
 Usage
 -----
 
-    mc [-lq] [-g group] [-c config] [-e command] [command]
+    mc [-lqs] [-g group] [-c config] [-e command] [command]
  
 
 Options
