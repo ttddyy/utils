@@ -1,4 +1,4 @@
-**Multi Directory Command**
+**Multiple Directories Command** 
 
 execute given command(s) in predefined multiple directories.
 
@@ -22,10 +22,15 @@ Options
 -------
 
 **-l** : list directory groups
+
 **-q** : quiet mode(no output from this script)
+
 **-s** : stop on error
+
 **-q** _group_name_ : specify directory group. (default group is used as default)
+
 **-c** _config_file_ : specify config file. (default is \"~/.mc_groups\")
+
 **-e** _command_ : specify command to run, otherwise given argument is used.
 
 

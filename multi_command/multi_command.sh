@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-#  Multi Directory Command (mc)
+#  Multiple Directories Command (mc)
 #    execute given command(s) to multiple predefined directories. 
 #    
 #  config file: (default is "~/.mc_groups")
