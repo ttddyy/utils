@@ -17,7 +17,7 @@
 #    > mc ls -al
 #    > mc -g projA ls -al
 #    > mc -g projA -e "ls -al"
-#    > mc -g projA -c ~/.mc_groups ls -al
+#    > mc -g projA -c ./sample_config ls -al
 #  
 
 usage() {

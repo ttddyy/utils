@@ -11,9 +11,9 @@ execute given command(s) in predefined multiple directories.
 Example:
 
     > mc ls -al                          # call "ls -al" on default directories(defined in config file)
-    > mc -g projA svn up                 # call "svn up" on projA group directories(defined in config file)
+    > mc -g projA git co master          # call "git co master" on projA group directories(defined in config file)
     > mc -g projA -e "mvn install"       # use -e to specify command
-    > mc -g projA -c ~/.mc_groups du -sh    # use config file specified by -c 
+    > mc -g projA -c sample_config du -sh    # use config file specified by -c 
 
 Usage
 -----
