@@ -30,7 +30,7 @@ Options
 
 **-s** : stop on error
 
-**-q** _group_name_ : specify directory group. (default group is used as default)
+**-g** _group_name_ : specify directory group. (default group is used as default)
 
 **-c** _config_file_ : specify config file. (default is "~/.mc_groups")
 
