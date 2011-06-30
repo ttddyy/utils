@@ -1,0 +1,11 @@
+# directory config file.  
+#   (default location is "~/.mc_groups")
+#
+BASE=~/workspace
+
+projA=$BASE/sub-projA-1,$BASE/sub-projA-2,$BASE/sub-projA-3
+projB="$BASE/sub-projB-1, $BASE/sub-projB-2"  # quote it if space exists
+proj-all=$projA,$projB
+
+default=$proj-all
+
