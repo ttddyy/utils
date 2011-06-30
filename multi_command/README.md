@@ -1,21 +1,22 @@
-**Multiple Directories Command** 
+About
+-----
 
 execute given command(s) in predefined multiple directories.
 
 * _multi_command.sh_ (mc)
 
 
+Example:
+
+    > mc ls -al                      # call "ls -al" on default directories
+    > mc -g projA svn up             # call "svn up" on projA group directories
+    > mc -g projA -e "mvn install"   # use -e to specify command
+    > mc -g projA -c ~/.mc_groups du -sh  # use config file specified by -c 
+
 Usage
 -----
 
 _mc_ [-lq] [-g group] [-c config] [-e command] [command]
-
-Example:
-
-    > mc ls -al
-    > mc -g projA svn up
-    > mc -g projA -e "mvn install"
-    > mc -g projA -c ~/.mc_groups du -sh
  
 
 Options
@@ -42,7 +43,8 @@ define directory groups. (default file: "~/.mc_groups")
 ### Format:
 
 shell script format. This file will be sourced.
->  _variable_=_dir1_,_dir2_,_dir3_  (comma delimited directories)
+
+_variable_=_dir1_,_dir2_,_dir3_  (comma delimited directories)
 
 Sample:
 
