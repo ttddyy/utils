@@ -56,3 +56,8 @@ Sample:
     proj-all=$projA,$projB
     default=$proj-all
 
+
+License
+-------
+
+Apache License 2.0
