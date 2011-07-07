@@ -1,7 +1,7 @@
 #! /bin/sh
 #
 #  Multiple Directories Command (mc)
-#    execute given command(s) to multiple predefined directories. 
+#    execute given command(s) in multiple predefined directories. 
 #    
 #  config file: (default is "~/.mc_groups")
 #    format) shell script format. (this file will be sourced) 

@@ -61,3 +61,8 @@ License
 -------
 
 Apache License 2.0
+
+Environment
+-----------
+
+Tested on Mac 10.6
